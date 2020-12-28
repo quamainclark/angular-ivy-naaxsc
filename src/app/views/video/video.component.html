@@ -1,0 +1,11 @@
+<div class="video-room subwindow-container">
+	<h1>Video Room</h1>
+	<p>Please click each url to see video.</p>
+	<div *ngFor="let link of links; let i = index">
+		<p class="video-link" (click)="popup(i)">{{link.link}}</p>
+		<!-- <app-resizable-draggable *ngIf="link.isClicked" [index]="i" [link]="link.link" (closeWindowEvent)="popup(i)"
+			[width]="300" [height]="150" [left]="100" [top]="100"></app-resizable-draggable> -->
+		<!-- <subwindow *ngIf="link.isClicked" [index]="i" [link]="link.link" (closeWindowEvent)="popup(i)"></subwindow> -->
+	</div>
+
+</div>

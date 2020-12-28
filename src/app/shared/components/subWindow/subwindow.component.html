@@ -1,0 +1,7 @@
+<div class="target" #target>Target</div>
+<ngx-moveable [target]="target" [draggable]="true" [resizable]="true" [keepRatio]="false" [throttleResize]="0"
+	[draggable]="true" [throttleDrag]="0" [startDragRotate]="0" [throttleDragRotate]="0" (drag)="onDrag($event)"
+	(dragStart)="onDragStart($event)" (dragEnd)="onDragEnd($event)"
+	[renderDirections]='["nw","n","ne","w","e","sw","s","se"]' [edge]="false" [zoom]="1" [origin]="true"
+	[padding]='{"left":0,"top":0,"right":0,"bottom":0}' (resizeStart)="onResizeStart($event)"
+	(resize)="onResize($event)" (resizeEnd)="onResizeEnd($event)"></ngx-moveable>

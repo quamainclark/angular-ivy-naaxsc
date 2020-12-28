@@ -1,0 +1,15 @@
+p {
+  font-family: Lato;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.wrap {
+  width: 80%;
+  height: 80vh;
+  background-color: gray;
+}

@@ -1,0 +1,11 @@
+.subwindow-container {
+  width: 100%;
+  height: 100%;
+  max-width: 100%;
+  border: dotted #ccc 2px;
+}
+
+.video-link {
+  color: rgb(28, 96, 136);
+  cursor: pointer;
+}
